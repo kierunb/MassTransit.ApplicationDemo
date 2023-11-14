@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.WebAPI", "MassTransit.WebAPI\MassTransit.WebAPI.csproj", "{BE689955-B72A-4576-BC1A-7B0651D727FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.OrderWorker", "MassTransit.OrderWorker\MassTransit.OrderWorker.csproj", "{812563AC-DB9A-4857-B262-B7D566797C32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.Contract", "MassTransit.Contract\MassTransit.Contract.csproj", "{31B703D5-40D5-4789-889A-3220F0B6CDC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.WorkerTemplate", "MassTransit.WorkerTemplate\MassTransit.WorkerTemplate.csproj", "{692F4110-7217-4588-A833-376271D73785}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B068E838-E0A7-47C2-8FC6-114005B876DE}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE689955-B72A-4576-BC1A-7B0651D727FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE689955-B72A-4576-BC1A-7B0651D727FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE689955-B72A-4576-BC1A-7B0651D727FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE689955-B72A-4576-BC1A-7B0651D727FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{812563AC-DB9A-4857-B262-B7D566797C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812563AC-DB9A-4857-B262-B7D566797C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812563AC-DB9A-4857-B262-B7D566797C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812563AC-DB9A-4857-B262-B7D566797C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B703D5-40D5-4789-889A-3220F0B6CDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B703D5-40D5-4789-889A-3220F0B6CDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B703D5-40D5-4789-889A-3220F0B6CDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B703D5-40D5-4789-889A-3220F0B6CDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692F4110-7217-4588-A833-376271D73785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692F4110-7217-4588-A833-376271D73785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692F4110-7217-4588-A833-376271D73785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692F4110-7217-4588-A833-376271D73785}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AF3470F-E393-4012-AEC6-030C370265C3}
+	EndGlobalSection
+EndGlobal
