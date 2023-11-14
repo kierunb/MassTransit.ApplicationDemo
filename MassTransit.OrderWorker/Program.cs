@@ -14,10 +14,10 @@ IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
     {
 
-        //services.AddWindowsService(options => 
-        //{
-        //    options.ServiceName = "Order Worker";
-        //});
+        services.AddWindowsService(options =>
+        {
+            options.ServiceName = "Order Worker";
+        });
 
         //services.AddHostedService<Worker>();
 
