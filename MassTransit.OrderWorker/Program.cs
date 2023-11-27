@@ -21,7 +21,6 @@ IHost host = Host.CreateDefaultBuilder(args)
 
         //services.AddHostedService<Worker>();
 
-
         // MassTransit Configuration
         services.AddMassTransit(x =>
         {
