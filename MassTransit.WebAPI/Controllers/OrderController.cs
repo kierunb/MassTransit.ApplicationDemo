@@ -9,6 +9,23 @@ namespace MassTransit.WebAPI.Controllers
     [ApiController]
     public class OrderController : ControllerBase
     {
+
+        [HttpPost("create-order")]
+        public async Task<IActionResult> CreateOrder([FromServices] IPublishEndpoint publishEndpoint, string orderName)
+        {
+            // asynchronous operation of sending/publishing message
+            
+            await publishEndpoint.Publish(new CreateOrderCommand
+            {
+                OrderId = NewId.NextGuid(),
+                OrderName = orderName,
+                OrderItems = new[] { "Marchewka", "Brukselka" }
+            });
+            
+            return Accepted();
+        }
+        
+        
         // scenario RPC, Request/Reply
 
         [HttpGet("{id}")]
